@@ -80,7 +80,7 @@ Want to make your custom command? Just follow the basic format below and put the
 
 ```js 
 const Discord = require('discord.js');
-const config = require('../config/config.json');
+const { Prefix, EmbedColor } = require('../config/config.json').Bot;
 
 module.exports = {
 
