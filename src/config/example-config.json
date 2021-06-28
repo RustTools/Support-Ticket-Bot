@@ -1,0 +1,47 @@
+{
+    "Bot":
+    {
+        "Token": "DiscordBotToken",
+        "Prefix": "!",
+        "EmbedColor": "#0099ff",
+        "Status":
+        {
+            "Type": "WATCHING",
+            "Text": "Tickets Fly By"
+        }
+    },
+
+    "Tickets":
+    {
+        "SupportChannel": "729098778954694656",
+
+        "NewTicketsChannel": "729098779466137612",
+
+        "FinishedTicketsChannel": "729098777482231849",
+
+        "TicketMasters":
+        [
+            "413037427935019009"
+        ],
+
+        "AutorizedUsersRoles":
+        [
+            "699911555193634886",
+            "750365877844574248",
+            "837309902695170088"
+        ],
+
+        "OneActiveTicket": false
+    },
+
+    "Database":
+    {
+        "host": "localhost",
+
+        "user": "root",
+
+        "password": "$123abc*",
+
+        "database": "DiscordBot"
+    }
+}

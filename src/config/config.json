@@ -1,0 +1,39 @@
+{
+    "Bot":
+    {
+        "Token": "",
+        "Prefix": "",
+        "EmbedColor": "",
+        "Status":
+        {
+            "Type": "",
+            "Text": ""
+        }
+    },
+
+    "Tickets":
+    {
+        "SupportChannel": "",
+
+        "NewTicketsChannel": "",
+
+        "FinishedTicketsChannel": "",
+
+        "TicketMasters":[],
+
+        "AutorizedUsersRoles":[],
+
+        "OneActiveTicket": false
+    },
+
+    "Database":
+    {
+        "host": "",
+
+        "user": "",
+
+        "password": "",
+
+        "database": ""
+    }
+}

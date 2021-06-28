@@ -1,0 +1,16 @@
+{
+  "name": "support-ticket-bot",
+  "version": "0.0.1-beta",
+  "description": "A Simple To Use Support Ticket Bot",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "author": "Kopter",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "mysql2": "^2.2.5"
+  }
+}
