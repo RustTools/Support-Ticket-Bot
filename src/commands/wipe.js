@@ -24,8 +24,8 @@ module.exports = {
     
                 await con.execute('DROP TABLE Tickets;');
     
-                require('../database/connection').CreateNewTable(con).catch(() => message.channel.send("Failed To Create New Table!"));
-    
+                require('../database/connection').CreateNewTable(con).catch(() => { return message.channel.send("Failed To Create New Table!"); });
+                    
                 message.channel.send("Database Reseted!");
             
             }).catch(() => message.channel.send("Canceled!"));
