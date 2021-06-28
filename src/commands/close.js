@@ -29,6 +29,8 @@ module.exports = {
                 TicketHandler = "No Information";
                 HandledOnDate = CurrentDate;
 
+                await con.execute(`UPDATE Tickets SET HandledOn = '${CurrentDate}' WHERE TicketNumber = '${UserTicketData[0].TicketNumber}';`);
+
                 try 
                 {
                     const FetchedMessages = await bot.channels.cache.get(NewTicketsChannel).messages.fetch();
