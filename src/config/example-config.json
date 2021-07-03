@@ -31,7 +31,9 @@
             "837309902695170088"
         ],
 
-        "OneActiveTicket": false
+        "OneActiveTicket": false,
+
+        "AnyoneCanAddNotes": true
     },
 
     "Database":

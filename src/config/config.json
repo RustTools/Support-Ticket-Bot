@@ -19,11 +19,13 @@
 
         "FinishedTicketsChannel": "",
 
-        "TicketMasters":[],
+        "TicketMasters": [],
 
-        "AutorizedUsersRoles":[],
+        "AutorizedUsersRoles": [],
 
-        "OneActiveTicket": false
+        "OneActiveTicket": false,
+
+        "AnyoneCanAddNotes": true
     },
 
     "Database":
