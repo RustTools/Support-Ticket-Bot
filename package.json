@@ -3,6 +3,9 @@
   "version": "0.0.1-beta",
   "description": "A Simple To Use Support Ticket Bot",
   "main": "src/app.js",
+  "repository": {
+    "url": "https://github.com/RustTools/Support-Ticket-Bot"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ."
