@@ -106,3 +106,4 @@ For any help/support, join the [Discord Support Server](https://rusttools.xyz/su
 * Add The Possibility To Add Notes To The Tickets
 * Better Error Handling
 * Option To Change Dates Timezone (UTC Currently)
+* Custom Messages
