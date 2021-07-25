@@ -1,8 +1,8 @@
 {
   "name": "support-ticket-bot",
-  "version": "0.0.1-beta",
+  "version": "0.2.1-beta",
   "description": "A Simple To Use Support Ticket Bot",
-  "main": "src/app.js",
+  "main": "src/index.js",
   "repository": {
     "url": "https://github.com/RustTools/Support-Ticket-Bot"
   },
