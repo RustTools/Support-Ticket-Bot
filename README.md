@@ -28,7 +28,7 @@ Video Instruction: `Coming Soon`
 
 ### Setting Up The Database
 
-With a lot of different OS's it's hard to explain here how to set up a MySQL database for each one of them, so please visit the [MySQL Installation Guide](https://dev.mysql.com/doc/mysql-installation-excerpt/5.7/en/) for detailed information on how to setup/install MySQL.
+With a lot of different OS's it's hard to explain here how to set up a MySQL database for each one of them, so please visit the [MySQL Installation Guide](https://dev.mysql.com/doc/mysql-installation-excerpt/8.0/en/) for detailed information on how to setup/install MySQL.
 
 There's no need to set up tables, as their check and created, if needed, every time the bot connects to the database.
 
