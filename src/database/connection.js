@@ -30,9 +30,9 @@ module.exports.CreateNewTable = async function(con)
 {  
     try 
     {     
-        let data = await readFileSync(__dirname + '/db.sql').toString();
+        let SQLQuery = await readFileSync(__dirname + '/db.sql').toString();
 
-        con.execute(data.toString());
+        con.execute(SQLQuery);
     } 
     
     catch (error) { console.error("Failed To Verify/Create New Table! " + error); }
